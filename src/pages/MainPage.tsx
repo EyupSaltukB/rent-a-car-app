@@ -54,7 +54,7 @@ const MainPage = () => {
         {/* listeleme alanı */}
         {isDataEmpty ? (
           <div className="home_error-container">
-            <h2>Üzgünüz! Herhnagi Bir Sonuç Bulunamadı.</h2>
+            <h2 className="mt-3">Üzgünüz! Herhnagi Bir Sonuç Bulunamadı.</h2>
           </div>
         ) : (
           <section>

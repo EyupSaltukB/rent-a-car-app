@@ -10,10 +10,10 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="flex-1 pt-36 padding-x max-h-[920px]">
-        <h1 className="hero_title">Özgürlüğü Hisset, Yolculuğa Başla!</h1>
+        <h1 className="hero_title font-bold">Özgürlüğü Hisset, Yolculuğa Başla!</h1>
         <p className="hero_subtitle text-gray-400">Dinamizmi her an hissettiren sportif karakteri ve yenilenen estetik iç tasarımıyla yeniden yorumlanan Yeni BMW 5 Serisi, liderlik yolculuğunda ilham vermeye ve sınıfına öncülük etmeye hazır.</p>
         <CustomButton 
-        title="Arabaları Keşfet!" 
+        title="Keşfet!" 
         designs="mt-10" 
         handleClick={flyTo}
         />

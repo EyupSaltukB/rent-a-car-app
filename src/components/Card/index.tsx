@@ -17,15 +17,15 @@ const Card = ({ car } : ICardProps) => {
     return (
         <div className="car-card group">
             {/* araç ismi */}
-            <h2 className="car-card__content-title">
-                {car.make.toUpperCase()} / {car.model}
+            <h2 className="car-card__content-title flex gap-2" >
+                {car.make.toUpperCase()} / <h2 className="text-gray-600">{car.model}</h2>
             </h2>
 
             {/* fiyat alanı */}
-            <p className="flex mt-6 text-[32px]">
-                <span className="text-[16px] font-semibold">$</span>
-                {Math.round(Math.random() * 544) + 350 }
-                <span className="text-[16px] font-medium self-end">/gün</span>
+            <p className="flex mt-6 text-[32px] gap-1">
+                <span className="text-[16px] font-semibold text-green-700">$</span>
+                {Math.round(Math.random() * 544) + 550 }
+                <span className="text-[16px] font-medium self-end">/ gün</span>
             </p>
 
             {/* resim alanı */}
